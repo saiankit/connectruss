@@ -51,7 +51,7 @@ class _DonorZipCodeState extends State<DonorZipCode> {
           )
         ],
         title: Text(
-          'Plasma Donor',
+          'Donor',
           style: TextStyle(fontSize: 20.0, color: Colors.white),
         ),
         backgroundColor: Colors.deepOrangeAccent,

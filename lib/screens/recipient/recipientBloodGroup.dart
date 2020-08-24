@@ -83,7 +83,7 @@ class _RecipientBloodGroupState extends State<RecipientBloodGroup> {
           )
         ],
         title: Text(
-          'Plasma Recipient',
+          'Recipient',
           style: TextStyle(fontSize: 20.0, color: Colors.white),
         ),
         backgroundColor: Colors.deepOrangeAccent,

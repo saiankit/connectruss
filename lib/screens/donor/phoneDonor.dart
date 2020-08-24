@@ -46,7 +46,7 @@ class _EnterPhoneNumberDonorState extends State<EnterPhoneNumberDonor> {
           )
         ],
         title: Text(
-          'Plasma Donor',
+          'Donor',
           style: TextStyle(fontSize: 20.0, color: Colors.white),
         ),
         backgroundColor: Colors.deepOrangeAccent,
@@ -118,7 +118,7 @@ class _EnterPhoneNumberDonorState extends State<EnterPhoneNumberDonor> {
                               ),
                             ),
                             Text(
-                              'By clicking here, you agree to recieve calls from plasma recipients, do not misuse this platform and all the information furnished is true to the best of your knowledge and belief.',
+                              'By clicking here, you agree to recieve calls from recipients, do not misuse this platform and all the information furnished is true to the best of your knowledge and belief.',
                               textAlign: TextAlign.justify,
                             ),
                           ],

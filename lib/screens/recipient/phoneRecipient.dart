@@ -36,7 +36,7 @@ class _EnterPhoneNumberRecipientState extends State<EnterPhoneNumberRecipient> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Plasma Recipient',
+          'Recipient',
           style: TextStyle(fontSize: 20.0, color: Colors.white),
         ),
         actions: [

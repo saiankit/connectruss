@@ -62,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ),
                       Text(
-                        'Plasma Recipient',
+                        'Recipient',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 35.0,
@@ -99,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ),
                       Text(
-                        'Plasma Donor',
+                        'Donor',
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 35.0,

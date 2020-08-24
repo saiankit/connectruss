@@ -11,7 +11,7 @@ class _DonorSuccessPageState extends State<DonorSuccessPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Plasma Donor',
+          'Donor',
           style: TextStyle(fontSize: 20.0, color: Colors.white),
         ),
         leading: IconButton(
@@ -52,7 +52,7 @@ class _DonorSuccessPageState extends State<DonorSuccessPage> {
                         ),
                         SizedBox(height: 25.0),
                         Text(
-                          'Your data has been added to the bank.  Plasma Recipients  might contact you.',
+                          'Your data has been added to the bank. Recipients  might contact you.',
                           textAlign: TextAlign.justify,
                           style: TextStyle(
                               fontSize: 25.0, fontWeight: FontWeight.bold),

@@ -55,7 +55,7 @@ class _RecipientZipCodeState extends State<RecipientZipCode> {
           )
         ],
         title: Text(
-          'Plasma Recipient',
+          'Recipient',
           style: TextStyle(fontSize: 20.0, color: Colors.white),
         ),
       ),

@@ -1,4 +1,3 @@
-
 import 'package:flushbar/flushbar.dart';
 import 'package:flutter/material.dart';
 import 'package:plasmaConnect/screens/donor/donorZipCode.dart';
@@ -84,7 +83,7 @@ class _DonorBloodGroupState extends State<DonorBloodGroup> {
           )
         ],
         title: Text(
-          'Plasma Donor',
+          'Donor',
           style: TextStyle(fontSize: 20.0, color: Colors.white),
         ),
         backgroundColor: Colors.deepOrangeAccent,

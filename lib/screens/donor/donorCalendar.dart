@@ -52,7 +52,7 @@ class _DonorCalendarState extends State<DonorCalendar> {
           )
         ],
         title: Text(
-          'Donor Calendar',
+          'Calendar',
           style: TextStyle(fontSize: 20.0, color: Colors.white),
         ),
         backgroundColor: Colors.deepOrangeAccent,
@@ -75,7 +75,7 @@ class _DonorCalendarState extends State<DonorCalendar> {
                                 fontSize: 25.0, fontWeight: FontWeight.bold),
                           ),
                           Text(
-                            'Date of Recovery from COVID 19',
+                            'Date of Recovery',
                             style: TextStyle(
                                 fontSize: 25.0, fontWeight: FontWeight.bold),
                           ),
