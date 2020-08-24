@@ -43,6 +43,7 @@ class _RecipientSuccessPageState extends State<RecipientSuccessPage> {
                     phone: widget.donor[index].phone,
                     bloodGroup: widget.donor[index].bloodGroup,
                     zipcode: widget.donor[index].zipcode,
+                    recoveredOn: widget.donor[index].recoveredOn,
                   );
                 },
               )

@@ -6,7 +6,7 @@ Future<String> postDonor({
   String bloodGroup,
   String recoveryDate,
 }) async {
-  String urlPOSTdonor = 'https://findcovidplasma.herokuapp.com/donors.json';
+  String urlPOSTdonor = 'https://connectplasma.herokuapp.com/donors.json';
   Map<String, String> headers = {"Content-type": "application/json"};
   String json = '''{
       "phone": "$phone",

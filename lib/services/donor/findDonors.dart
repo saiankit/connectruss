@@ -22,7 +22,7 @@ String encodeQeuery(String bloodGroup) {
 Future<List<dynamic>> getDonorsNearby({String bloodGroup}) async {
   String encodedQuery = encodeQeuery(bloodGroup);
   String urlGETdonor =
-      'https://findcovidplasma.herokuapp.com/donors.json?blood_group=$encodedQuery';
+      'https://connectplasma.herokuapp.com/donors.json?blood_group=$encodedQuery';
   Map<String, String> headers = {"Content-type": "application/json"};
   var response = await get(
     urlGETdonor,

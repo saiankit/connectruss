@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 class DonorCard extends StatefulWidget {
   DonorCard({
@@ -82,6 +83,18 @@ class _DonorCardState extends State<DonorCard> {
                   ),
                   Text(
                     widget.bloodGroup,
+                    style: TextStyle(fontSize: 18.0, color: Colors.black),
+                  ),
+                ],
+              ),
+              Row(
+                children: [
+                  Text(
+                    'Recovery Date: ',
+                    style: TextStyle(fontSize: 18.0, color: Colors.black),
+                  ),
+                  Text(
+                    DateFormat.yMMMd().format(widget.recoveredOn),
                     style: TextStyle(fontSize: 18.0, color: Colors.black),
                   ),
                 ],
