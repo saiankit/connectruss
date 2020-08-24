@@ -1,5 +1,5 @@
-import 'package:CovidPlasmaConnect/screens/homeScreen.dart';
 import 'package:flutter/material.dart';
+import 'screens/homeScreen.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Plasma Connect'),
+          title: Text('COVID Plasma Connect'),
           centerTitle: true,
         ),
         body: HomeScreen(),
