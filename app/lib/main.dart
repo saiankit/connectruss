@@ -19,7 +19,44 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('connecTruss'),
+          title: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                decoration: BoxDecoration(
+                  color: Colors.deepOrangeAccent[100],
+                  borderRadius: BorderRadius.circular(13.0),
+                  border: Border.all(
+                    color: Color(0xFFA60303),
+                    width: 3.0,
+                  ),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        'connec',
+                        style: TextStyle(color: Colors.black),
+                      ),
+                      Text(
+                        'T',
+                        style: TextStyle(
+                          color: Color(0xFFA60303),
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Text(
+                        'russ',
+                        style: TextStyle(color: Colors.black),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          ),
           centerTitle: true,
         ),
         body: HomeScreen(),

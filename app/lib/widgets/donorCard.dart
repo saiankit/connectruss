@@ -44,64 +44,135 @@ class _DonorCardState extends State<DonorCard> {
             ),
           ],
           borderRadius: BorderRadius.circular(25.0),
-          color: Colors.orangeAccent,
+          color: Colors.deepOrangeAccent[100],
         ),
         child: Padding(
           padding: const EdgeInsets.all(30.0),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              Row(
-                children: [
-                  Text(
-                    'Phone Number: ',
-                    style: TextStyle(fontSize: 18.0, color: Colors.black),
-                  ),
-                  Text(
-                    widget.phone,
-                    style: TextStyle(fontSize: 18.0, color: Colors.black),
-                  ),
-                ],
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 8.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Icon(Icons.phone),
+                    Text(
+                      widget.phone,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20.0,
+                      ),
+                    ),
+                  ],
+                ),
               ),
-              Row(
-                children: [
-                  Text(
-                    'Pin Code: ',
-                    style: TextStyle(fontSize: 18.0, color: Colors.black),
-                  ),
-                  Text(
-                    widget.zipcode,
-                    style: TextStyle(fontSize: 18.0, color: Colors.black),
-                  ),
-                ],
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 8.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Icon(Icons.location_on),
+                    Text(
+                      widget.zipcode,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20.0,
+                      ),
+                    ),
+                  ],
+                ),
               ),
-              Row(
-                children: [
-                  Text(
-                    'Blood Group: ',
-                    style: TextStyle(fontSize: 18.0, color: Colors.black),
-                  ),
-                  Text(
-                    widget.bloodGroup,
-                    style: TextStyle(fontSize: 18.0, color: Colors.black),
-                  ),
-                ],
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 8.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Icon(Icons.calendar_today),
+                    Text(
+                      DateFormat.yMMMd().format(widget.recoveredOn),
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20.0,
+                      ),
+                    ),
+                  ],
+                ),
               ),
-              Row(
-                children: [
-                  Text(
-                    'Recovery Date: ',
-                    style: TextStyle(fontSize: 18.0, color: Colors.black),
-                  ),
-                  Text(
-                    DateFormat.yMMMd().format(widget.recoveredOn),
-                    style: TextStyle(fontSize: 18.0, color: Colors.black),
-                  ),
-                ],
-              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 8.0),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Icon(Icons.album),
+                    Text(
+                      widget.bloodGroup,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 20.0,
+                      ),
+                    ),
+                  ],
+                ),
+              )
             ],
           ),
         ),
+        // child: Padding(
+        //   padding: const EdgeInsets.all(30.0),
+        //   child: Column(
+        //     mainAxisAlignment: MainAxisAlignment.spaceAround,
+        //     children: [
+        //       Row(
+        //         children: [
+        //           Text(
+        //             'Phone Number: ',
+        //             style: TextStyle(fontSize: 18.0, color: Colors.black),
+        //           ),
+        //           Text(
+        //             widget.phone,
+        //             style: TextStyle(fontSize: 18.0, color: Colors.black),
+        //           ),
+        //         ],
+        //       ),
+        //       Row(
+        //         children: [
+        //           Text(
+        //             'Pin Code: ',
+        //             style: TextStyle(fontSize: 18.0, color: Colors.black),
+        //           ),
+        //           Text(
+        //             widget.zipcode,
+        //             style: TextStyle(fontSize: 18.0, color: Colors.black),
+        //           ),
+        //         ],
+        //       ),
+        //       Row(
+        //         children: [
+        //           Text(
+        //             'Blood Group: ',
+        //             style: TextStyle(fontSize: 18.0, color: Colors.black),
+        //           ),
+        //           Text(
+        //             widget.bloodGroup,
+        //             style: TextStyle(fontSize: 18.0, color: Colors.black),
+        //           ),
+        //         ],
+        //       ),
+        //       Row(
+        //         children: [
+        //           Text(
+        //             'Recovery Date: ',
+        //             style: TextStyle(fontSize: 18.0, color: Colors.black),
+        //           ),
+        //           Text(
+        //             DateFormat.yMMMd().format(widget.recoveredOn),
+        //             style: TextStyle(fontSize: 18.0, color: Colors.black),
+        //           ),
+        //         ],
+        //       ),
+        //     ],
+        //   ),
+        // ),
       ),
     );
   }
