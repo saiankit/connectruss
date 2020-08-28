@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:plasmaConnect/models/donorModel.dart';
-import 'package:plasmaConnect/widgets/donorCard.dart';
+import 'package:connectruss/models/donorModel.dart';
+import 'package:connectruss/widgets/donorCard.dart';
 
 class RecipientSuccessPage extends StatefulWidget {
   final List<Donor> donor;

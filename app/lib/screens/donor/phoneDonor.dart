@@ -1,6 +1,6 @@
 import 'package:flushbar/flushbar.dart';
 import 'package:flutter/material.dart';
-import 'package:plasmaConnect/screens/donor/donorBloodGroup.dart';
+import 'package:connectruss/screens/donor/donorBloodGroup.dart';
 
 class EnterPhoneNumberDonor extends StatefulWidget {
   @override
@@ -20,7 +20,7 @@ class _EnterPhoneNumberDonorState extends State<EnterPhoneNumberDonor> {
         color: Colors.blue.shade300,
       ),
       leftBarIndicatorColor: Colors.blue.shade300,
-      duration: Duration(seconds: 10),
+      duration: Duration(seconds: 6),
     )..show(context);
   }
 

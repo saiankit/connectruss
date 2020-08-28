@@ -1,4 +1,4 @@
-# plasmaConnect
+# connectruss
 
 A new Flutter project.
 

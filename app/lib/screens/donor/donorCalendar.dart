@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:plasmaConnect/screens/donor/donorSuccess.dart';
-import 'package:plasmaConnect/services/donor/postDonor.dart';
+import 'package:connectruss/screens/donor/donorSuccess.dart';
+import 'package:connectruss/services/donor/postDonor.dart';
 
 class DonorCalendar extends StatefulWidget {
   final String phoneNumber;

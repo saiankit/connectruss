@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:plasmaConnect/screens/donor/phoneDonor.dart';
-import 'package:plasmaConnect/screens/recipient/phoneRecipient.dart';
+import 'package:connectruss/screens/donor/phoneDonor.dart';
+import 'package:connectruss/screens/recipient/phoneRecipient.dart';
 
 class HomeScreen extends StatefulWidget {
   @override

@@ -1,9 +1,9 @@
 import 'package:flushbar/flushbar.dart';
 import 'package:flutter/material.dart';
-import 'package:plasmaConnect/models/donorModel.dart';
-import 'package:plasmaConnect/screens/recipient/recipientSuccessPage.dart';
-import 'package:plasmaConnect/services/donor/findDonors.dart';
-import 'package:plasmaConnect/services/recipient/postRecipient.dart';
+import 'package:connectruss/models/donorModel.dart';
+import 'package:connectruss/screens/recipient/recipientSuccessPage.dart';
+import 'package:connectruss/services/donor/findDonors.dart';
+import 'package:connectruss/services/recipient/postRecipient.dart';
 
 class RecipientZipCode extends StatefulWidget {
   final String phoneNumber;
@@ -27,7 +27,7 @@ class _RecipientZipCodeState extends State<RecipientZipCode> {
         color: Colors.blue.shade300,
       ),
       leftBarIndicatorColor: Colors.blue.shade300,
-      duration: Duration(seconds: 10),
+      duration: Duration(seconds: 6),
     )..show(context);
   }
 

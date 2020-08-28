@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Plasma Connect'),
+          title: Text('connecTruss'),
           centerTitle: true,
         ),
         body: HomeScreen(),

@@ -1,6 +1,6 @@
 import 'package:flushbar/flushbar.dart';
 import 'package:flutter/material.dart';
-import 'package:plasmaConnect/screens/recipient/recipientBloodGroup.dart';
+import 'package:connectruss/screens/recipient/recipientBloodGroup.dart';
 
 class EnterPhoneNumberRecipient extends StatefulWidget {
   @override
@@ -21,7 +21,7 @@ class _EnterPhoneNumberRecipientState extends State<EnterPhoneNumberRecipient> {
         color: Colors.blue.shade300,
       ),
       leftBarIndicatorColor: Colors.blue.shade300,
-      duration: Duration(seconds: 10),
+      duration: Duration(seconds: 6),
     )..show(context);
   }
 

@@ -1,6 +1,6 @@
 import 'package:flushbar/flushbar.dart';
 import 'package:flutter/material.dart';
-import 'package:plasmaConnect/screens/donor/donorCalendar.dart';
+import 'package:connectruss/screens/donor/donorCalendar.dart';
 
 class DonorZipCode extends StatefulWidget {
   final String phoneNumber;
@@ -23,7 +23,7 @@ class _DonorZipCodeState extends State<DonorZipCode> {
         color: Colors.blue.shade300,
       ),
       leftBarIndicatorColor: Colors.blue.shade300,
-      duration: Duration(seconds: 10),
+      duration: Duration(seconds: 6),
     )..show(context);
   }
 

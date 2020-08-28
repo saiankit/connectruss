@@ -1,6 +1,6 @@
 import 'package:flushbar/flushbar.dart';
 import 'package:flutter/material.dart';
-import 'package:plasmaConnect/screens/recipient/recipientZipCode.dart';
+import 'package:connectruss/screens/recipient/recipientZipCode.dart';
 
 class RecipientBloodGroup extends StatefulWidget {
   final String phoneNumber;
@@ -23,7 +23,7 @@ class _RecipientBloodGroupState extends State<RecipientBloodGroup> {
         color: Colors.blue.shade300,
       ),
       leftBarIndicatorColor: Colors.blue.shade300,
-      duration: Duration(seconds: 10),
+      duration: Duration(seconds: 6),
     )..show(context);
   }
 
