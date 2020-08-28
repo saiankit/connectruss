@@ -12,7 +12,7 @@ This app is pedning publication and will publish at https://play.google.com/stor
 
 #### Salient Features of connecTruss
 
- ###### Video Version : https://youtu.be/tSElpCUb_As
+###### Video Version : https://youtu.be/tSElpCUb_As
 
 
 
@@ -42,3 +42,8 @@ This app is pedning publication and will publish at https://play.google.com/stor
 **Step #3**: Open a simulator / emulator and run the application
 
 ``` flutter run```
+
+
+- - - -
+### Created and Maintained by 
+#### Sai Ankit ( [Code Studio Sai Ankit](https://www.youtube.com/c/CodeStudioSaiAnkit?sub_confirmation=1) ) 
