@@ -1,4 +1,4 @@
-package com.example.plasmaConnect
+package com.saiankit.connectruss
 
 import io.flutter.embedding.android.FlutterActivity
 
