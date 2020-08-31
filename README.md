@@ -6,7 +6,7 @@
 
 This helps donors to connect with recipients at ease. 
 
-This app is pedning publication and will publish at https://play.google.com/store/apps/details?id=com.saiankit.connectruss
+This app is published on Google Play Store and is live at  https://play.google.com/store/apps/details?id=com.saiankit.connectruss
 
 ------
 
