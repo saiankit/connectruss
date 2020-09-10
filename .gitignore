@@ -42,3 +42,8 @@ app.*.map.json
 
 # Exceptions to above rules.
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+
+app/build/ios/Debug-iphonesimulator
+app/build/app/outputs
+app/build/ios/iphonesimulator/Runner.app
